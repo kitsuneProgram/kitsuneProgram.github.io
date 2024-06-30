@@ -1,12 +1,12 @@
 import { Metadata } from "next";
-import { website } from "./lib/constant";
+import { website } from "../lib/constant";
 
 export const metadata: Metadata = {
-  title: "ホーム" + website.title,
+  title: "他リンク" + website.title,
   description: website.description,
 };
 
-export default function Home() {
+export default function Links() {
   return (
     <>
       

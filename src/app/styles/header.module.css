@@ -1,0 +1,25 @@
+.header {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 0px;
+}
+
+.button {
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    padding: 20px 20px;
+    color:#000;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(227, 227, 186);
+}
+
+.button:hover {
+    background-color: rgb(180, 180, 143);
+}
+
+.flexbox {
+    display: flex;
+}
