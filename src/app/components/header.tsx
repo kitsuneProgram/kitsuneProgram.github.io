@@ -1,4 +1,4 @@
-import nextConfig from "../../../next.config.mjs";
+import nextConfig from "../../../../../Desktop/website/next.config.mjs";
 const BASE_PATH = nextConfig.basePath || "";
 
 import Image from "next/image";

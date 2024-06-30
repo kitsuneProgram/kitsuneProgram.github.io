@@ -1,7 +1,7 @@
 import Header from "src/app/components/header";
 import "./globals.css";
 
-import nextConfig from "../../next.config.mjs";
+import nextConfig from "../../../../Desktop/website/next.config.mjs";
 const BASE_PATH = nextConfig.basePath || "";
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
