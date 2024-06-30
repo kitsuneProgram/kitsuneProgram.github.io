@@ -12,9 +12,10 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "dayjs": "^1.11.11",
+    "highlight": "^0.2.4",
     "highlight.js": "^11.9.0",
     "html-react-parser": "^5.1.10",
-    "microcms-js-sdk": "^3.1.1",
+    "microcms-js-sdk": "^3.1.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
