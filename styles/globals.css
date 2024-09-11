@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #d9e9e8;
+}
+
+body {
+  display: block;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 30%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.article {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 5%;
+}
+
+.side {
+  background-color: #ffffff;
+  width: 10%;
+  padding: 5%;
+}
