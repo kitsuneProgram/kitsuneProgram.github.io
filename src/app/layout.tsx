@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./_components/header";
 
 export const metadata: Metadata = {
   title: "KitsuneProgrammer",
@@ -9,7 +10,11 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="ja">
+      <head>
+        <link rel="icon" href="./favicon.ico"/>
+      </head>
       <body>
+        <Header/>
         <main>
           {children}
         </main>

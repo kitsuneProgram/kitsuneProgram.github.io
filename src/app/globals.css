@@ -1,12 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 html {
   background-color: #f4f4f4;
+}
+
+header {
+  margin: 0 auto;
+  width: 1000px;
 }
 
 main {
   background-color: #ffffff;
   margin: 0 auto;
+  width: 1000px;
+  padding: 100px 100px 300px 100px;
 }
