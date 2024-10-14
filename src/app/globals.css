@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background-color: #f4f4f4;
 }
@@ -5,11 +10,12 @@ html {
 header {
   margin: 0 auto;
   width: 1000px;
+  height: 200px;
 }
 
 main {
   background-color: #ffffff;
   margin: 0 auto;
-  width: 1000px;
-  padding: 100px 100px 300px 100px;
+  width: 800px;
+  padding: 50px 100px 500px 100px;
 }
