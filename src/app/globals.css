@@ -4,17 +4,23 @@
 }
 
 html {
-  background-color: #f4f4f4;
+  background-color: #292926;
+}
+
+body {
+  display: block;
 }
 
 header {
+  color: #fff;
   margin: 0 auto;
   width: 1000px;
   height: 200px;
 }
 
 main {
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #404037;
   margin: 0 auto;
   width: 800px;
   padding: 50px 100px 500px 100px;
