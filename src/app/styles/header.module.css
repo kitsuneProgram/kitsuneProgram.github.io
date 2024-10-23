@@ -1,13 +1,23 @@
+.header {
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-size: 0;
+}
+
 .flexbox {
+    width: 1000px;
+    height: 50px;
     display: flex;
 }
 
 .header_button {
+    font-size: 16px;
     background-color: #56563d;
     width: 210px;
-    height: 80px;
-    padding: 20px;
+    height: 30px;
+    padding: 10px 20px;
     text-align: center;
+    line-height: 30px;
 }
 
 .header_button:hover {
