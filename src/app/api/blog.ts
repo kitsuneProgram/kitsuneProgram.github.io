@@ -6,7 +6,8 @@ export type Blog = {
     image: MicroCMSImage,
     content: string,
     category: Category[],
-    date: MicroCMSDate
+    createdAt: string,
+    updatedAt: string
 };
 
 export type Category = {
