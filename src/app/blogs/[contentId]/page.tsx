@@ -20,7 +20,6 @@ export default async function Article({params: { contentId },}: {params: { conte
 
   const $ = load(post.content, null, false);
   $('pre code').each((_, elm) => {
-    //const result = hljs.highlightAuto($(elm).text());
     const result = hljs.highlightAuto($(elm).text(), ['javascript', 'python', 'html', 'css']);
     $(elm).html(result.value);
     $(elm).addClass('hljs');
