@@ -9,22 +9,22 @@ html {
 
 body {
   margin: 0 auto;
-  width: 1000px;
+  width: 1100px;
   display: block;
 }
 
 header {
   color: #fff;
   margin: 0 auto;
-  width: 1000px;
-  height: 250px;
+  width: 1100px;
+  height: 280px;
 }
 
 main {
   color: #fff;
   background-color: #404037;
   margin: 0 auto;
-  width: 800px;
+  width: 900px;
   padding: 50px 100px 300px 100px;
 }
 
@@ -36,7 +36,7 @@ a {
 .blogs {
   flex-wrap: wrap;
   display: flex;
-  width: 800px;
+  width: 900px;
 }
 
 .article {

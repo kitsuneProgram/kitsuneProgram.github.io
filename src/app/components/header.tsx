@@ -8,7 +8,7 @@ export default function Header() {
     return(
         <>
             <header className={style.header}>
-                <Image src={image.src} width={1000} height={200} alt=""/>
+                <Image src={image.src} width={1100} height={210} alt=""/>
                 <div className={style.flexbox}>
                     <Link href="/"><div className={style.header_button}>ホーム</div></Link>
                     <Link href="/blogs"><div className={style.header_button}>記事一覧</div></Link>
