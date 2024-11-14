@@ -16,10 +16,25 @@ export type Category = {
     date: MicroCMSDate
 }
 
+export type News = {
+    news: string,
+    date: MicroCMSDate
+}
+
 export const client = createClient({
     serviceDomain:  process.env.NEXT_SERVICEDOMAIN || "",
     apiKey: process.env.NEXT_APIKEY || "",
 });
+
+export const getNews = async (queries?: MicroCMSQueries) => {
+    const listData = await client.getList<News>({
+        customRequestInit: { next: { tags: ["articles"] } },
+     endpoint: "news",
+     queries
+    });
+   
+    return listData;
+};
 
 export const getBlogs = async (queries?: MicroCMSQueries) => {
     const listData = await client.getList<Blog>({

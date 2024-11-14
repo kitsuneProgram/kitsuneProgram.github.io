@@ -3,6 +3,7 @@ import { load } from "cheerio";
 import parse from "html-react-parser"
 import hljs from "highlight.js";
 import 'highlight.js/styles/vs2015.css';
+import dayjs from "dayjs";
 
 export async function generateStaticParams() {
   const blogs = (await getBlogs()).contents;
@@ -13,6 +14,15 @@ export async function generateStaticParams() {
  
   return [...paths];
  }
+
+export async function generateMetadata({params: { contentId },}: {params: { contentId: string };}) {
+
+  const post = await getBlogDetail(contentId);
+  
+  return {
+    title: post.title + ' | KitsuneProgrammer',
+  }
+}
 
 export default async function Article({params: { contentId },}: {params: { contentId: string };}) {
 
@@ -25,10 +35,12 @@ export default async function Article({params: { contentId },}: {params: { conte
     $(elm).addClass('hljs');
   });
   post.content = $.html();
- 
+
   return (
     <div>
       <h1>{post.title}</h1>
+      <h2>作成日：{dayjs(post.createdAt).format("YYYY/MM/DD")}</h2>
+      <h2>最終更新：{dayjs(post.updatedAt).format("YYYY/MM/DD")}</h2>
       <hr/>
       <div>{parse(post.content)}</div>
     </div>

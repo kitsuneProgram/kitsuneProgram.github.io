@@ -12,8 +12,8 @@ export default function Header() {
                 <div className={style.flexbox}>
                     <Link href="/"><div className={style.header_button}>ホーム</div></Link>
                     <Link href="/blogs"><div className={style.header_button}>記事一覧</div></Link>
-                    <Link href="/"><div className={style.header_button}>はじめての方へ</div></Link>
-                    <Link href="/"><div className={style.header_button}>プログラム</div></Link>
+                    <Link href="/welcome"><div className={style.header_button}>はじめての方へ</div></Link>
+                    <Link href="/links"><div className={style.header_button}>リンク</div></Link>
                 </div>
             </header>
         </>

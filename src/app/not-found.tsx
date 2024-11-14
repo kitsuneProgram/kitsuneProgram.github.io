@@ -1,7 +1,7 @@
-import type { Metadata } from 'next'
+import { Metadata } from "next";
 
 export const metadata:Metadata = {
-  title: '404'
+  title: "ページが見つかりませんでした | KitsuneProgrammer"
 }
 
 export default function Page() {
