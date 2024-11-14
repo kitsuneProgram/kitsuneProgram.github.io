@@ -7,7 +7,8 @@ export const metadata:Metadata = {
 export default function Page() {
   return (
     <div>
-      <h1>404ページ</h1>
+      <h1>ページが見つかりませんでした</h1>
+      <p>URLが間違っているか、不具合が生じている可能性があります。</p>
     </div>
   );
 }
