@@ -27,7 +27,7 @@ export const client = createClient({
 });
 
 export const getNews = async (queries?: MicroCMSQueries) => {
-    const listData = await client.getList<News>({
+    const listData = await client.getObject<News>({
         customRequestInit: { next: { tags: ["articles"] } },
      endpoint: "news",
      queries
