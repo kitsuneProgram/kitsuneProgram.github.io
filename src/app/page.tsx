@@ -9,6 +9,7 @@ export const metadata:Metadata = {
 export default async function Home() {
 
   const news = await getNews();
+  
   return (
     <>
       {parse(news.news)}
