@@ -24,10 +24,7 @@ export default function Links() {
         <p>相互リンクについて用がある方はXのDMで連絡してください。<br/>
         僕から相互リンクを頼むこともあります。</p>
 
-        <Link href="https://nakasyou.github.io/" className="flex">
-          <Image src={""} width={30} height={30} className="shortcut" alt=""/>
-          <h2>nakasyou's website</h2>
-        </Link>
+        <Link href={"https://nakasyou.github.io"}><h2>nakasyou's website</h2></Link>
       </>
     );
   }
