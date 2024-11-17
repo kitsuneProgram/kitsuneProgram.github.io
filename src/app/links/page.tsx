@@ -46,7 +46,7 @@ export default function Links() {
           <h2>博麗神社の物置部屋 / Charlie Root</h2>
         </Link>
 
-        <Link href="https://http://nishi.boats" className="flex">
+        <Link href="http://nishi.boats" className="flex">
           <Image src={nishiOwO.src} width={150} height={50} className="mutual-link" alt=""/>
           <h2>nishi.boats / nishiOwO</h2>
         </Link>
