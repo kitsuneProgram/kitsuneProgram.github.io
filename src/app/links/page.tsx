@@ -8,6 +8,7 @@ import banner from "../images/banner.png"
 import nakasyou from "../images/links/nakasyou-icon.png"
 import akku from "../images/links/akku-icon.png"
 import hakureiWin from "../images/links/hakureiWin.ico"
+import nishiOwO from "../images/links/nishiboats.png"
 
 export const metadata:Metadata = {
   title: "リンク | KitsuneProgrammer"
@@ -40,9 +41,14 @@ export default function Links() {
           <h2>akku’s website / akku</h2>
         </Link>
 
-        <Link href="https://hakurei.win/" className="flex">
+        <Link href="https://hakurei.win" className="flex">
           <Image src={hakureiWin.src} width={50} height={50} className="mutual-link" alt=""/>
           <h2>博麗神社の物置部屋 / Charlie Root</h2>
+        </Link>
+
+        <Link href="https://http://nishi.boats" className="flex">
+          <Image src={nishiOwO.src} width={150} height={50} className="mutual-link" alt=""/>
+          <h2>nishi.boats / nishiOwO</h2>
         </Link>
 
         <div className="banner">
