@@ -6,8 +6,9 @@ import { Metadata } from "next";
 import banner from "../images/banner.png"
 
 import nakasyou from "../images/links/nakasyou-icon.png"
-import akku from "../images/links/akku-icon.png"
 import hakureiWin from "../images/links/hakureiWin.ico"
+
+import akku from "../images/links/akku-icon.png"
 import nishiOwO from "../images/links/nishiboats.png"
 
 export const metadata:Metadata = {
@@ -44,15 +45,6 @@ export default function Links() {
           <h2>nakasyou’s website / nakasyou</h2>
         </Link>
 
-        <Link href="https://akku1139.github.io" className="flex">
-          <div className="flexbox">
-            <div className="space_left"/>
-            <Image src={akku.src} width={50} height={50} className="mutual-link" alt=""/>
-            <div className="space_right"/>
-          </div>
-          <h2>akku’s website / akku</h2>
-        </Link>
-
         <Link href="https://hakurei.win" className="flex">
           <div className="flexbox">
             <div className="space_left"/>
@@ -60,6 +52,19 @@ export default function Links() {
             <div className="space_right"/>
           </div>
           <h2>博麗神社の物置部屋 / Charlie Root</h2>
+        </Link>
+
+        <hr/>
+
+        <h1>一方リンク</h1>
+
+        <Link href="https://akku1139.github.io" className="flex">
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={akku.src} width={50} height={50} className="mutual-link" alt=""/>
+            <div className="space_right"/>
+          </div>
+          <h2>akku’s website / akku</h2>
         </Link>
 
         <Link href="http://nishi.boats" className="flex">
