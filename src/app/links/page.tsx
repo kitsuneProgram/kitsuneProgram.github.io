@@ -20,7 +20,11 @@ export default function Links() {
         <h1>開発者の狐。のリンク</h1>
 
         <Link href="https://x.com/kitsune_program" className="flex">
-          <Image src={logo.src} width={30} height={30} className="shortcut" alt=""/>
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={logo.src} width={30} height={30} className="shortcut" alt=""/>
+            <div className="space_right"/>
+          </div>
           <h2>KitsuneProgrammer / 開発者の狐。</h2>
         </Link>
 
@@ -32,22 +36,38 @@ export default function Links() {
         僕から相互リンクを頼むこともあります。</p>
 
         <Link href="https://nakasyou.github.io" className="flex">
-          <Image src={nakasyou.src} width={50} height={50} className="mutual-link" alt=""/>
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={nakasyou.src} width={50} height={50} className="mutual-link" alt=""/>
+            <div className="space_right"/>
+          </div>
           <h2>nakasyou’s website / nakasyou</h2>
         </Link>
 
         <Link href="https://akku1139.github.io" className="flex">
-          <Image src={akku.src} width={50} height={50} className="mutual-link" alt=""/>
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={akku.src} width={50} height={50} className="mutual-link" alt=""/>
+            <div className="space_right"/>
+          </div>
           <h2>akku’s website / akku</h2>
         </Link>
 
         <Link href="https://hakurei.win" className="flex">
-          <Image src={hakureiWin.src} width={50} height={50} className="mutual-link" alt=""/>
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={hakureiWin.src} width={50} height={50} className="mutual-link" alt=""/>
+            <div className="space_right"/>
+          </div>
           <h2>博麗神社の物置部屋 / Charlie Root</h2>
         </Link>
 
         <Link href="http://nishi.boats" className="flex">
-          <Image src={nishiOwO.src} width={150} height={50} className="mutual-link" alt=""/>
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={nishiOwO.src} width={150} height={50} className="mutual-link" alt=""/>
+            <div className="space_right"/>
+          </div>
           <h2>nishi.boats / nishiOwO</h2>
         </Link>
 
