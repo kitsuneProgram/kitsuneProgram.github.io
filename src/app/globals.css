@@ -25,7 +25,8 @@ main {
   background-color: #404037;
   margin: 0 auto;
   width: 900px;
-  padding: 50px 100px 500px 100px;
+  padding: 50px 100px 50px 100px;
+  min-height: 600px;
 }
 
 a {
@@ -43,12 +44,16 @@ a {
   margin: 10px;
   border-radius: 10px;
   padding: 20px;
-  height: 290px;
   list-style: none;
   background-color: #646455;
 
   a {
     display: block;
+  }
+
+  li {
+    margin: 5px;
+    flex: 1;
   }
 
   h2, h3 {
