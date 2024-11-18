@@ -34,19 +34,22 @@ a {
 }
 
 .blogs {
-  flex-wrap: wrap;
-  display: flex;
   width: 900px;
 }
 
 .article {
-  display: block;
+  flex-wrap: wrap;
+  display: flex;
   margin: 10px;
   border-radius: 10px;
   padding: 20px;
   height: 290px;
   list-style: none;
   background-color: #646455;
+
+  a {
+    display: block;
+  }
 
   h2, h3 {
     margin: 5px 0;
