@@ -63,13 +63,6 @@ export default function Links() {
           <h2>akku’s website / akku</h2>
         </Link>
 
-        <hr/>
-
-        <h1>一方リンク</h1>
-
-        <p>一方的なリンクです。<br/>
-        相互リンクかどうかよく分からない人もいます。</p>
-
         <Link href="http://nishi.boats" className="flex">
           <div className="flexbox">
             <div className="space_left"/>
