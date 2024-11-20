@@ -76,10 +76,6 @@ export default function Links() {
           <a href="https://kitsuneprogram.github.io"><img src={banner.src} alt=""/></a>
           <h2>このサイトのバナー</h2>
         </div>
-
-        <code>
-          
-        </code>
       </>
     );
   }
