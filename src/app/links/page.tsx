@@ -1,7 +1,9 @@
 import Image from "next/image";
-import logo from "../images/x.png"
 import Link from "next/link";
 import { Metadata } from "next";
+
+import x from "../images/x.png"
+import zenn from "../images/logo-only.svg"
 
 import banner from "../images/banner.png"
 
@@ -23,10 +25,28 @@ export default function Links() {
         <Link href="https://x.com/kitsune_program" className="flex">
           <div className="flexbox">
             <div className="space_left"/>
-            <Image src={logo.src} width={30} height={30} className="shortcut" alt=""/>
+            <Image src={x.src} width={30} height={30} className="shortcut" alt=""/>
             <div className="space_right"/>
           </div>
           <h2>KitsuneProgrammer / 開発者の狐。</h2>
+        </Link>
+
+        <Link href="https://x.com/suneirudesu" className="flex">
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={x.src} width={30} height={30} className="shortcut" alt=""/>
+            <div className="space_right"/>
+          </div>
+          <h2>かたつむり.cs</h2>
+        </Link>
+
+        <Link href="https://zenn.dev/snail_san" className="flex">
+          <div className="flexbox">
+            <div className="space_left"/>
+            <Image src={zenn} width={30} height={30} className="shortcut" alt=""/>
+            <div className="space_right"/>
+          </div>
+          <h2>かたつむり.sb3.cs.js.ts</h2>
         </Link>
 
         <hr/>
