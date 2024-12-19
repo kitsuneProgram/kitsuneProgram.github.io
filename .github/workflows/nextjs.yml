@@ -53,8 +53,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env: 
-          MICROCMS_SERVICEDOMAIN: ${{ secrets.MICROCMS_SERVICEDOMAIN }}
-          MICROCMS_APIKEY: ${{ secrets.MICROCMS_APIKEY }}
+          NEXT_SERVICEDOMAIN: ${{ secrets.NEXT_SERVICEDOMAIN }}
+          NEXT_APIKEY: ${{ secrets.NEXT_APIKEY }}
       - name: Restore cache
         uses: actions/cache@v4
         with:
