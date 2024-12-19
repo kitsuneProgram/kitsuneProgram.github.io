@@ -23,7 +23,7 @@ export default function Welcome() {
         <p>Next.jsでのWebサイト開発やUnityでのゲーム開発を主にしていて、<br/>
         絵を描いたり、作曲したりもしています。<br/><br/>
         
-        東方とかUNDERTALE、マリオカート8DX、ピクミン3などのゲームが好きです。<br/>
+        東方やUNDERTALE、マリオカート8DX、ピクミン3などのゲームが好きです。<br/>
         東方はこの中で一番好きで菅牧典推し。<br/><br/>
         
         本も好きでライトノベルで言えば魔女の旅々、<br/>
