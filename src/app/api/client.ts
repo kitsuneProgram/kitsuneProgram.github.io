@@ -22,8 +22,8 @@ export type News = {
 }
 
 export const client = createClient({
-    serviceDomain:  process.env.SERVICEDOMAIN || "service domain",
-    apiKey: process.env.APIKEY || "apikey",
+    serviceDomain:  process.env.SERVICEDOMAIN || "",
+    apiKey: process.env.APIKEY || "",
 });
 
 export const getNews = async (queries?: MicroCMSQueries) => {
